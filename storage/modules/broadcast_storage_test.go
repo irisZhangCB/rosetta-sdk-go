@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	mocks "github.com/coinbase/rosetta-sdk-go/mocks/storage/modules"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/coinbase/rosetta-sdk-go/utils"
+	mocks "github.com/irisZhangCB/rosetta-sdk-go/mocks/storage/modules"
+	"github.com/irisZhangCB/rosetta-sdk-go/types"
+	"github.com/irisZhangCB/rosetta-sdk-go/utils"
 )
 
 const (

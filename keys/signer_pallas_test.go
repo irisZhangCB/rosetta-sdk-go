@@ -20,7 +20,7 @@ import (
 	"github.com/coinbase/kryptology/pkg/signatures/schnorr/mina"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/irisZhangCB/rosetta-sdk-go/types"
 )
 
 var signerPallas Signer

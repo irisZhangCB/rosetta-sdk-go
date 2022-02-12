@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/irisZhangCB/rosetta-sdk-go/asserter"
+	"github.com/irisZhangCB/rosetta-sdk-go/types"
 )
 
 // Call returns the validated response

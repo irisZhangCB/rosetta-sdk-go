@@ -26,8 +26,8 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/coinbase/kryptology/pkg/signatures/schnorr/mina"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/irisZhangCB/rosetta-sdk-go/asserter"
+	"github.com/irisZhangCB/rosetta-sdk-go/types"
 )
 
 // PrivKeyBytesLen are 32-bytes for all supported curvetypes
@@ -127,7 +127,7 @@ func ImportPrivateKey(privKeyHex string, curve types.CurveType) (*KeyPair, error
 		priKeyBytes, _ := rawPrivKey.MarshalBinary()
 		keyPair = &KeyPair{
 			PublicKey: &types.PublicKey{
-				Bytes: pubKey,
+				Bytes:     pubKey,
 				CurveType: curve,
 			},
 			PrivateKey: priKeyBytes,
